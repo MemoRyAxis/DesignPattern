@@ -1,4 +1,4 @@
-package com.memory.designpattern.facade;
+package com.memory.gof.facade;
 
 /**
  * @author MemoRyAxis

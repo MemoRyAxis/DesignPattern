@@ -1,4 +1,4 @@
-package com.memory.designpattern.adapter;
+package com.memory.gof.adapter;
 
 /**
  * @author MemoRyAxis
