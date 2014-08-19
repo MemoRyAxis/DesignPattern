@@ -12,5 +12,10 @@ public class Developer {
         IDE ide = new IntelliJ();
         os.setIde(ide);
         os.useIDE();
+
+        os = new Windows();
+        ide = new Eclipse();
+        os.setIde(ide);
+        os.useIDE();
     }
 }

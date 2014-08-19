@@ -7,6 +7,8 @@ package com.memory.gof.bridge;
  */
 public abstract class OS {
 
+    protected String osNm;
+
     protected IDE ide;
 
     protected OS() {
@@ -20,8 +22,17 @@ public abstract class OS {
         this.ide = ide;
     }
 
+    public String getOsNm() {
+        return osNm;
+    }
+
+    public void setOsNm(String osNm) {
+        this.osNm = osNm;
+    }
+
     public void useIDE() {
         // 调用
+        System.out.println("OS : " + this.getClass().getSimpleName());
         this.ide.useIDE();
     }
 }
