@@ -2,7 +2,7 @@ package com.memory.gof.proxy;
 
 /**
  * @author MemoRyAxis
- * @todo
+ * @todo Real Subject : the class who achieve logic and method actually
  * @date 2014/8/19 0:36
  */
 public class GamerPlayer implements Gamer {

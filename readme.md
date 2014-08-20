@@ -40,3 +40,15 @@
     定义一个对象 封装一组对象的交互 从而降低这些对象之间的耦合 避免了这些对象间的显示引用 并且可以独立改变对象的行为
     Roles : Colleague, Mediator, Concrete Mediator
 
+2.4 代理模式(Proxy)
+    通过代理角色来控制一个对象的访问 代理类与委托类相互对应 并实现共同的接口 代理类中方法通过调用委托类方法来实现 并在此基础上实现增强
+    Roles : Subject, Real Subject, Proxy,
+
+2.5 动态代理(Dynamic Proxy)
+    动态生成代理类 并非直接实例化代理类 也没有直接实现委托类的接口 而是以反射直接抽取接口内的方法
+    Roles : Subject Real Subject, InvocationHandler, Proxy
+
+2.6
+
+
+

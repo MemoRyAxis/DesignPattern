@@ -2,7 +2,7 @@ package com.memory.gof.proxy;
 
 /**
  * @author MemoRyAxis
- * @todo
+ * @todo Proxy(core) : achieve proxy and add character of proxy
  * @date 2014/8/19 0:48
  */
 public class GamerProxy implements Gamer, Proxy {
