@@ -48,7 +48,24 @@
     动态生成代理类 并非直接实例化代理类 也没有直接实现委托类的接口 而是以反射直接抽取接口内的方法
     Roles : Subject Real Subject, InvocationHandler, Proxy
 
-2.6
+2.6 职责链模式(Chain of Responsibility, CoR)
+    客户端发出一个请求 同时有多个对象能够处理这个请求 为避免客户端与这些对象的耦合 将这些对象连成一条链 请求沿着这条链传递直到能够处理该请求
+    
+2.7 享元模式(Flyweight)
+    通过共享的方式来实现对大量细粒度的对象的调用
+    Roles : Flyweight Factory, Flyweight, Flyweight Concrete
+
+-------------------------------------
+
+3 构建型模式
+
+-------------------------------------
+
+3.1 建造者模式(Builder)
+    将复杂的对象构建逻辑从对象本身中抽离出来 简化对象构建过程 
+    Roles : Product, Concrete Product, Builder, Concrete Builder, Director
+
+    
 
 
 
