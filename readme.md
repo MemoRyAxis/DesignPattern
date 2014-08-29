@@ -80,5 +80,9 @@ Roles : Factory, Factory Concrete, Product, Product Concrete
 #### 3.4 原型模式(Prototype)
 通过复制现有对象来生成新的对象 具体操作为对象的克隆 分为浅表克隆和深度克隆
 
+#### 3.5 备忘录模式(Memento)
+利用一个对象来存储另一个对象的内部状态的快照 其过程不破坏被存储对象封装 并且能够在合适的时候将被存储对象状态还原
+
+Roles : Originator, Memento, Caretaker
 
 
