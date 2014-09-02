@@ -85,4 +85,23 @@ Roles : Factory, Factory Concrete, Product, Product Concrete
 
 Roles : Originator, Memento, Caretaker
 
+4 操作型模式
+---
+
+#### 4.1 模版方法模式(Template)
+定义一个抽象类 包括一个或多个实现或未实现的方法以及一个固定的主要逻辑 其目的是让这些未实现的方法推迟到子类实现 从而使主要逻辑实现不同效果
+
+Roles : Abstract Template(Primitive Method, Template Method), Concrete Template
+
+#### 4.2 状态模式(State)
+允许在一个对象在其内部状态改变时改变它的行为
+
+Roles : State, Concrete State, Context
+
+
+
+
+
+
+
 

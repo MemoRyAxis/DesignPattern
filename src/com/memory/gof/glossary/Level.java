@@ -1,4 +1,4 @@
-package com.memory.gof.base;
+package com.memory.gof.glossary;
 
 /**
  * @author MemoRyAxis

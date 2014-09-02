@@ -1,6 +1,6 @@
 package com.memory.gof.cor;
 
-import com.memory.gof.base.Level;
+import com.memory.gof.glossary.Level;
 
 /**
  * @author MemoRyAxis
