@@ -98,6 +98,15 @@ Roles : Abstract Template(Primitive Method, Template Method), Concrete Template
 
 Roles : State, Concrete State, Context
 
+#### 4.3 策略模式(Strategy)
+定义一个方法 其包含一个或一组算法的集合 并为这些算法提供不同的实现 以便更好的管理与调用这些算法
+
+Roles : Strategy, Concrete Strategy, Context
+
+#### 4.4 命令模式(Command)
+将请求封装在对象中 便能够像管理对象一样管理方法 同时实现了命令者与被命令者的完全解耦
+
+Roles : Command, Concrete Command, Invoker, Receiver
 
 
 
